@@ -1,0 +1,16 @@
+header{
+    background-color: #181e3a;;
+   color: white;
+   padding: 1%;
+   font-size: 30px;
+}
+.chamada{
+background:  #485f94;;
+padding-bottom: 3em;
+padding-top: 2em;
+display: flex;
+justify-content: center;
+}
+.chamada-texto{
+    padding-right: 6em;
+}
