@@ -1,16 +1,111 @@
-header{
-    background-color: #181e3a;;
-   color: white;
-   padding: 1%;
-   font-size: 30px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.chamada{
-background:  #485f94;;
-padding-bottom: 3em;
-padding-top: 2em;
-display: flex;
-justify-content: center;
+
+html, body {
+    height: 100%;
 }
-.chamada-texto{
-    padding-right: 6em;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1c2b4a;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.chamada {
+    background: rgb(82, 183, 255);
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    font-size: 1.5em; 
+    line-height: 1.4; 
+    color: #fff; 
+}
+
+.lista-golpes {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lista-golpes li {
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border-left: 5px solid #4f8ee1;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+.lista-golpes li:hover {
+    background-color: #4f8ee1;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.container {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.container h2 {
+    color: #4f8ee1;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.container-videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-videos a {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container-videos img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.container-videos img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.container-videos a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
