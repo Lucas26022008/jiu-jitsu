@@ -10,13 +10,13 @@ html, body {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f9;
+    background-color: #FFD7C4;
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #1c2b4a;
+    background-color: #87A2FF;
     color: white;
     padding: 30px;
     text-align: center;
@@ -29,7 +29,7 @@ header h1 {
 }
 
 .chamada {
-    background: rgb(82, 183, 255);
+    background: #C4D7FF;
     padding: 80px 20px;
     display: flex;
     justify-content: space-around;
